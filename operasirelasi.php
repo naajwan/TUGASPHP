@@ -1,34 +1,42 @@
 <?php
     $a = 5;
-    $b = 5;
+    $b = '5';
 
     var_dump($a == $b);
     echo "<hr/>";
 
+    $a = 5;
+    $b = '5';
     var_dump($a === $b);
     echo "<hr/>";
     
-    $b++;
+    $a = 5;
+    $b = 6;
     var_dump($a != $b);
     echo "<hr/>";
 
-    $b--;
+    a = 5;
+    $b = '5';
     var_dump($a !== $b);
     echo "<hr/>";
 
-    $a +=5;
+    $a = 10;
+    $b = 5;
     var_dump($a > $b);
     echo "<hr/>";
     
-    $a -= 7;
+    $a = 3;
+    $b = 7;
     var_dump($a < $b);
     echo "<hr/>";
     
-    $a += 2;
+    $a = 5;
+    $b = 5;
     var_dump($a >= $b);
     echo "<hr/>";
 
-    $a -= 1;
+    $a = 4;
+    $b = 5;
     var_dump($a <= $b);
     echo "<hr/>";
     
